@@ -18,27 +18,6 @@ export class CadastroUpdateComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    const id = this.route.snapshot.paramMap.get('id') as string
-    this.cadastroService.readById(+id).subscribe(cadastro => {
-      this.cadastro = cadastro
-    })
-  }
-
-  updateCadastro(): void{
-    this.cadastroService.updateCadastro(this.cadastro).subscribe(() => {
-      this.router.navigate(["/cadastro/tabela"]);
-    })
-  }
-  cancelCadastro(): void {
-
-    this.router.navigate([''])
-
-  }
-
-  tabelaCadastro(): void {
-
-    this.router.navigate(['cadastro/tabela'])
-
-  }
-   
+    const id = !this.route.snapshot.paramMap.get('id')
+    }
 }

@@ -22,11 +22,4 @@ export class CadastroDeleteComponent implements OnInit {
       this.cadastro = cadastro
     })
   }
-
-  deleteCadastro(): void{
-    this.cadastroService.deleteCadastro(this.cadastro.id!).subscribe(()=>{  
-      this.router.navigate(['cadastro/tabela'])
-    })
-  }  
-
 }
