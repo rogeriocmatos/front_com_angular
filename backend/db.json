@@ -8,11 +8,6 @@
     {
       "usuario": "teste",
       "senha": "teste",
-      "id": 2
-    },
-    {
-      "usuario": "teste",
-      "senha": "teste",
       "id": 3
     },
     {
@@ -34,6 +29,11 @@
       "usuario": "rmatos",
       "senha": "rrrrrr",
       "id": 7
+    },
+    {
+      "usuario": "Testado",
+      "senha": "123",
+      "id": 8
     }
   ]
 }

@@ -5,7 +5,7 @@
         </div>
         <div class="col-md-6" style="margin: 0 auto;">
             <div class="row-effect">
-                <p>Informações mais relevantes</p>
+                <p>Informações mais Relevantes</p>
             </div>
         </div>
 
@@ -19,13 +19,13 @@
     <div class="col-12 col-md-12 d-flex justify-content-center" style="margin: 80px auto 0px;">
         <hr class="mb-4">
         <div class="col-12 col-md-4 p-0">
-            <button class="btn btn-cadastrar" color="warn">Home</button>
+            <button class="btn btn-cadastrar" (click)="cancelCadastro()" color="accent">Home</button>
         </div>
         <div class="col-12 col-md-3 p-0">
-            <button class="btn btn-cadastrar" color="accent">Cadastrar</button>
+            <button class="btn btn-cadastrar" (click)="createCadastro()" color="warn">Cadastrar</button>
         </div>
         <div class="col-12 col-md-5 p-0">
-            <button class="btn btn-cadastrar" color="accent">Todos os cadastros</button>
+            <button class="btn btn-cadastrar" (click)="tabelaCadastro()" color="accent">Todos os Cadastros</button>
         </div>
     </div>
 </div> 
